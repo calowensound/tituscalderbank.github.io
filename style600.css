@@ -34,16 +34,17 @@ body {
   color: lightgray;
 }
 #header-title {
-  width: 100%;
+  display: block;
+  background-color: black;
   text-align: center;
   font-size: 40px;
   font-family: 'Amatic SC', cursive;
   padding-top: 5px;
   margin-bottom: 0;
-  background-color: black;
 }
 #header-nav {
   display: none;
+  font-family: 'Amatic SC', cursive;
 }
 #header:hover #header-nav {
   display: block;
