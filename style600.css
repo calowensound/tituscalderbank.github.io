@@ -3,9 +3,9 @@
 
 body {
   color: white;
-  background-image: url("images/bghead20.png");
+  background-image: url("images/bgstars.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
@@ -22,8 +22,6 @@ body {
   opacity: 0.88;
 }
 #header {
-  background-color: black;
-  height: 50px;
   margin-bottom: 0;
 }
 #header a {
@@ -41,6 +39,7 @@ body {
   font-family: 'Amatic SC', cursive;
   padding-top: 5px;
   margin-bottom: 0;
+  background-color: black;
 }
 #header-nav {
   display: none;
